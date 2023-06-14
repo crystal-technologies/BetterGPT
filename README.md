@@ -7,7 +7,7 @@ Throughout history, humanity has constantly pushed the boundaries of innovation,
 
 Well, my friends, the time has come to embark on an exciting new journey!
 
-Introducing BetterGPT: The Pinnacle of Human-AI Communication
+# Introducing BetterGPT: The Pinnacle of Human-AI Communication
 
 After years of relentless dedication, overcoming failures, celebrating successes, and fostering innovation, I proudly present a groundbreaking product designed to engage with humans using natural language. ChatGPT initially garnered global attention due to its creation by world-class engineers in state-of-the-art facilities equipped with cutting-edge technology. Meanwhile, a middle schooler was working in a modest 11x11 feet room, armed only with a dual-core CPU computer and an unwavering dream inspired by Iron Man. He dedicated three years of their life, well before the inception of ChatGPT, envisioning a technology that could seamlessly interact with humans just like other humans do.
 
