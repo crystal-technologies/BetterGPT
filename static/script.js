@@ -59,7 +59,7 @@ window.addEventListener('load', function () {
             queryInput.value = "";
             queryInput.style.height = "20px";
 
-            var sentText = document.createElement('p');
+            var sentText = document.createElement('pre');
             sentText.className = "sent-text";
             sentText.classList.add("message")
             sentText.style.padding = "20px";
