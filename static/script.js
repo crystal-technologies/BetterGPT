@@ -106,7 +106,7 @@ window.addEventListener('load', function () {
                 if (replyTextElement) {
                     replyTextElement.textContent = text; // Append new text to the existing content
                 } else {
-                    const newReplyTextElement = document.createElement('p');
+                    const newReplyTextElement = document.createElement('pre');
                     newReplyTextElement.id = 'current-reply';
                     newReplyTextElement.className = 'reply-text';
                     newReplyTextElement.classList.add("message")
