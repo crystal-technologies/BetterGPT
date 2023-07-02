@@ -3,10 +3,9 @@
 
 <head>
     <title>BetterGPT</title>
-    <!-- <link rel="icon" href="{{ url_for('static', filename='BetterGPT Logo Blue.png') }}" type="image/x-icon"/> -->
-    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico" sizes="32x32"> -->
     <link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='favicon.ico') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}">
+    <meta meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 
 <body>
@@ -14,13 +13,13 @@
         <img id="logo" src="{{ url_for('static', filename='BetterGPT Logo Blue.png') }}" alt="BetterGPT Logo">
         <div id="logo-text">
             <h1>BetterGPT</h1>
-            <p>Powered by CRYSTAL</p>
+            <p class="description">Powered by CRYSTAL</p>
         </div>
         <p style="position: absolute; bottom: 50px;">By Vatsal Dutt</p>
     </div>
 
     <div id="main-content">
-        <div id="sliders">
+        <div id="sliders" class="sidebar">
             <div class="slider-container">
                 <div class="slider-info">
                     <label for="temperature-slider">Temperature:</label>
@@ -70,24 +69,22 @@
             </div>
         </div>
         <div id="centered-content">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1200px-Hamburger_icon_white.svg.png" alt="" class="hamburger">
             <div id="main">
                 <h1>BetterGPT</h1>
-                <p>A powerful language model based on Perceptrix&#8482; by CRYSTAL Technologies Inc.</p>
+                <p class="description">A powerful language model based on Perceptrix&#8482; by CRYSTAL Technologies Inc.</p>
             </div>
             <div id="conversation">
             </div>
-            <!-- <form id="query-form" action="process-query" method="POST"> -->
-                <div id="query-container">
-                    <textarea id="query-input" name="query-input" placeholder="Enter your query"></textarea>
-                    <button id="send-button"><img src="{{ url_for('static', filename='Send Icon.png') }}" alt="Send"
-                            width="20px"></button>
+                <div class="query-container">
+                    <textarea class="query-input" name="query-input" placeholder="Enter your query" rows="1"></textarea>
+                    <button class="send-button"><img class="status-image" src="{{ url_for('static', filename='Send Icon.png') }}" alt="Send"></button>
                 </div>
-            <!-- </form> -->
         </div>
     </div>
 
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/4.0.2/autosize.min.js"></script>
     <script src="{{ url_for('static',filename='script.js') }}"></script>
 </body>
 
