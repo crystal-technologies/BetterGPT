@@ -241,7 +241,7 @@ textarea:focus {
     overflow-y: auto;
     transition: 0.2s;
     scroll-behavior: smooth;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 .message {
@@ -255,6 +255,8 @@ textarea:focus {
     font-size: medium;
     border: none;
     resize: none;
+    width: 90%;
+    white-space: pre-wrap;
 }
 
 form {
